@@ -9,6 +9,6 @@ PC Specifications (Subject to Change)
 
 Extra Features:
 
-DVD Writer
+ - DVD Writer
 
 Updated: 08/19/2026
