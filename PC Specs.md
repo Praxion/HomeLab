@@ -1,6 +1,6 @@
 PC Specifications (Subject to Change)
 
-|Components|
+| Designation | Components |
 | --- | --- |
 |CPU: | 8 x AMD Ryzen 5 2400G with Radeon Vega Graphics (1 Socket) |
 |GPU: | AMD Radeon RX 580 Graphics Card |
