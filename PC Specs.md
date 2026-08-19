@@ -7,7 +7,8 @@ PC Specifications (Subject to Change)
 |Storage: | 128 GB SSD|
 |RAM: | 16 GB DDR4-2400 |
 
-Extra Features
+Extra Features:
+
 DVD Writer
 
 Updated: 08/19/2026
