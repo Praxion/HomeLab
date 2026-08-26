@@ -71,29 +71,3 @@ Yes. Operating a local-first file structure on a dedicated Home PC makes deep AI
 *   **Serve as a personal oracle**: Run locally hosted Retrieval-Augmented Generation (RAG) models over the raw text of my notes to answer questions, summarize long research articles, and surface relevant insights exactly when I need them.
 
 ---
-
-## Quick Start Configuration
-
-To deploy the web interface on your home lab server, save the following configuration to `docker-compose.yml` [12]:
-
-```yaml
-services:
-  ignis:
-    image: nobbe/ignis:latest
-    ports:
-      - "8080:8080"
-    environment:
-      - PUID=1000 # Run as your host system user
-      - PGID=1000
-      - WRITE_COALESCE_MS=500 # Debounces rapid writes on network drives (SMB/NFS)
-    volumes:
-      - ./vaults:/vaults
-      - ./data:/app/data
-      - obsidian-app:/app/obsidian-app
-    restart: unless-stopped
-Note: Because Ignis does not feature built-in authentication, you must place an external authentication gateway (like Tailscale, Authelia, or Tinyauth) in front of this container before exposing it to the wider internet
-.
-
-***
-
-🔍 Would you like me to draft a companion **Docker Compose** file showing how to run Syncthing as a sidecar container alongside Ignis on your server to complete your GitHub repository configuration?
