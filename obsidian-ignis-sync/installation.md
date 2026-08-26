@@ -13,6 +13,7 @@ Syncthing will watch this exact same folder and sync any changes to your Home PC
 Once Docker is installed inside your LXC, you can deploy both services using a single docker-compose.yml file to manage them together:
 version: '3.8'
 
+```
 services:
   ignis:
     image: nobbe/ignis:latest
@@ -45,7 +46,7 @@ services:
 
 volumes:
   obsidian-app:
-
+```
 
 ⚠️ A Final Operational Warning
 As a reminder, you should not enable the LiveSync community plugin inside the Ignis browser UI itself. Because LiveSync stores its synchronization database in the browser's local storage, opening Ignis in a new tab will make it look like a new device to the sync engine, which can trigger massive re-indexing and cause data corruption.
