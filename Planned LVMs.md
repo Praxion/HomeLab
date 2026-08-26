@@ -2,6 +2,6 @@
 |:---|:---:|
 | `PiHole` | Archived |
 | `Cloud Storage` | Archived |
-| `Obsidian Ignis + SyncThing` | In Progress |
+| `Obsidian Ignis Sync` | In Progress |
 | `Database` | TBD |
 | `TBD` | ... |
