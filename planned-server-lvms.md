@@ -2,6 +2,6 @@
 |:---|:---:|
 | `PiHole` | Archived |
 | `Cloud Storage` | Archived |
-| `Obsidian Ignis Sync` | In Progress |
-| `Database` | TBD |
+| `Obsidian Ignis Sync` | Active no external connect |
+| `WireGuard` | Active no external connect |
 | `TBD` | ... |
