@@ -6,6 +6,9 @@ PC Specifications (Subject to Change)
 |GPU: | AMD Radeon RX 580 Graphics Card |
 |Storage: | 128 GB SSD|
 |RAM: | 16 GB DDR4-2400 |
+|Storage2: | 1 TB HD |
+
+*Storage 2 is still in progress of implementation. Need to plan a day for system shutdown and installation.*
 
 Extra Features:
 
