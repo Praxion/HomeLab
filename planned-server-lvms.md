@@ -2,6 +2,7 @@
 |:---|:---:|
 | `PiHole` | Archived |
 | `Cloud Storage` | Archived |
-| `Obsidian Ignis Sync` | Active no external connect |
-| `WireGuard` | Active no external connect |
+| `Obsidian Ignis Sync` | Active |
+| 'Twingate' | Active |
+| 'Vaultwarden' | Active |
 | `TBD` | ... |
